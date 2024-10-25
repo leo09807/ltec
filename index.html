@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ltec Informática</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+     
+        .container-fluid {
+            min-height: 80vh;
+        }
+
+        .left {
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .contact-links {
+            text-align: left;
+        }
+
+        .contact-links a {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            font-size: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-links a i {
+            margin-right: 10px;
+            font-size: 30px;
+        }
+
+        .contact-links a:hover {
+            color: #007bff;
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 70px;
+        }
+
+        .image-container {
+            width: 100%;
+            height: 400px;
+            background: url('img/ltec.png') no-repeat center center;
+            background-size: cover;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+    @media only screen and (max-width: 600px) {
+    
+    .image-container {
+    height: 200px;
+    width: 100%;
+    position: absolute;
+ }
+  
+  }
+  .titulo {
+    font-size: 32px;
+  }
+  .paragrafo {
+    font-size: 22px;
+  }
+
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+       
+        <div class="col-lg-6 col-md-10 left">
+            <div class="contact-links">
+                <h1 class="titulo">Site em desenvolvimento</h1>
+                <h2 class="paragrafo">Acesse nossas redes:</h2>
+                 <div>
+                    <a href="https://wa.me/553233727346" aria-label="Enviar mensagem no WhatsApp">
+                        <i class="fab fa-whatsapp"></i>WhatsApp
+                    </a>
+                    <a href="https://www.facebook.com/ltecinformaticasjdr/photos/?_rdr" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil do LinkedIn">
+                        <i class="fab fa-facebook-f"></i>Facebook
+                    </a>
+                    <a href="https://www.instagram.com/ltecinformatica/" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil do Instagram">
+                        <i class="fab fa-instagram"></i>Instagram
+                    </a>
+                 </div>
+            </div>
+        </div>
+
+       
+        <div class="col-lg-6 col-md-12 right">
+            <div class="image-container"></div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Ltec Informática - Todos os direitos reservados.</p>
+        <p>Telefone: (32) 3372-7346 | Email: contato@ltecinformatica.com.br</p>
+        <p>
+            <a href="#!" style="color: white;">Política de Privacidade</a> |
+            <a href="#!" style="color: white;">Termos de Uso</a>
+            <div>
+                    <a href="https://wa.me/553233727346" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/ltecinformaticasjdr/photos/?_rdr" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/ltecinformatica/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+            </div>
+        </p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
